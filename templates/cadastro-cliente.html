@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Cliente</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">SHEMOVES</h1>
+    <div class="form-container">
+      <h2 class="form-title">PROFISSIONAL</h2>
+      <form id="registration-form">
+        <label for="name">Nome completo:</label>
+        <input type="text" id="name" placeholder="Digite aqui seu nome...">
+        
+        <label for="birthdate">Data de nascimento:</label>
+        <input type="date" id="birthdate">
+        
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" placeholder="Ex: 111.222.333-44">
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="seuemail@example.com">
+        
+        <label for="phone">Número do celular:</label>
+        <input type="tel" id="phone" placeholder="(11) 99999-9999">
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password">
+        
+        <label for="confirm-password">Confirmar senha:</label>
+        <input type="password" id="confirm-password">
+        
+        <div class="password-criteria">
+          <p>Sua senha deve conter:</p>
+          <ul>
+            <li id="length">Mínimo de oito caracteres</li>
+            <li id="numbers">Mínimo de dois números</li>
+            <li id="special">Mínimo de um caractere especial</li>
+            <li id="uppercase">Mínimo de uma letra maiúscula</li>
+            <li id="lowercase">Mínimo de uma letra minúscula</li>
+          </ul>
+        </div>
+        
+        <button type="submit" class="submit-btn">VALIDAR</button>
+      </form>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #d5f3fe, #e6d9f9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #4a5eb7;
+    margin-bottom: 10px;
+  }
+  
+  .form-container {
+    padding: 15px;
+  }
+  
+  .form-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .password-criteria {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .password-criteria ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .password-criteria li {
+    margin: 5px 0;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #2ca1a6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #228b90;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  }
+  
