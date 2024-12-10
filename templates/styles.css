@@ -6,6 +6,8 @@ body {
     background: linear-gradient(to right, #d5f3fe, #e6d9f9);
     display:flex;
     justify-content: center;
+    /*align-items: center;*/
+    /*height: 100vh;*/
   }
   
   .container {
@@ -93,4 +95,81 @@ body {
       font-size: 20px;
     }
   }
+
+
+.welcome-container,
+.login-container, .opition-container {
+  text-align: center;
+  max-width: 350px;
+  width: 90%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.logo img {
+  max-width: 100px;
+  margin: 10px auto;
+  display: block;
+}
+
+.welcome-title,
+.login-title {
+  font-size: 24px;
+  color: #4a5eb7;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.welcome-btn,
+.login-btn {
+  background-color: #2ca1a6;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.welcome-btn:hover,
+.login-btn:hover {
+  background-color: #228b90;
+}
+
+form {
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  flex-grow: 1;
+}
+
+.password-wrapper .toggle-password {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
   

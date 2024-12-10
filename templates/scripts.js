@@ -22,4 +22,3 @@ document.getElementById('registration-form').addEventListener('submit', function
       alert('Por favor, corrija os erros antes de continuar.');
     }
   });
-  
